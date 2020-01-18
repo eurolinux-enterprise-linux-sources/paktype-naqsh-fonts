@@ -3,7 +3,7 @@
 
 Name:	%{fontname}-fonts
 Version:     4.1
-Release:     1%{?dist}
+Release:     2%{?dist}
 Summary:     Fonts for Arabic from PakType
 
 Group:	User Interface/X
@@ -54,6 +54,9 @@ ln -s %{_fontconfig_templatedir}/%{fontconf}-naqsh.conf \
 %doc PakType_Naqsh_License.txt PakType_Naqsh_Features.pdf 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.1-2
+- Mass rebuild 2013-12-27
+
 * Mon Apr 22 2013 Pravin Satpute <psatpute@redhat.com> - 4.1-1
 - Upstream release 4.1
 
